@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/home/knoldus/Desktop/Assignments/assignment-scala-01-4/src/main/scala/com/knoldus/operation/ListOperations.scala">
+  <error column="6" line="45" source="org.scalastyle.scalariform.CyclomaticComplexityChecker" severity="warning" message="Cyclomatic complexity of 14 exceeds max of 10"/>
+ </file>
+</checkstyle>

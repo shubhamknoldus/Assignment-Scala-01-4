@@ -1,0 +1,14 @@
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Desktop/Assignments/assignment-scala-01-4/src/main/scala/com/knoldus/operation/ListOperations.scala:51:42: unreachable code[0m
+[0m[[0m[33mwarn[0m] [0m[0m          case head :: Nil => recurseList(Nil, head + computer, oper)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Desktop/Assignments/assignment-scala-01-4/src/main/scala/com/knoldus/operation/ListOperations.scala:58:42: unreachable code[0m
+[0m[[0m[33mwarn[0m] [0m[0m          case head :: Nil => recurseList(Nil, head * computer, oper)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Desktop/Assignments/assignment-scala-01-4/src/main/scala/com/knoldus/operation/ListOperations.scala:73:13: unreachable code[0m
+[0m[[0m[33mwarn[0m] [0m[0m            if (head > head2) {[0m
+[0m[[0m[33mwarn[0m] [0m[0m            ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/home/knoldus/Desktop/Assignments/assignment-scala-01-4/src/main/scala/com/knoldus/operation/ListOperations.scala:63:9: match may not be exhaustive.[0m
+[0m[[0m[33mwarn[0m] [0m[0mIt would fail on the following inputs: List(_), Nil[0m
+[0m[[0m[33mwarn[0m] [0m[0m        list match {[0m
+[0m[[0m[33mwarn[0m] [0m[0m        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mfour warnings found[0m
