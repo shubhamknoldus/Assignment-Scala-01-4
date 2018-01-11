@@ -30,8 +30,6 @@ object ApplicationObject extends App {
   val listOper: List[String] = List("sum","product","max")
 
   val obj = new ListOperations
-  logger.info(obj.operateList(list, listOper(0),ListOperations.sumList))
-  logger.info(obj.operateList(list, listOper(1),ListOperations.productList))
-  logger.info(obj.operateList(list, listOper(2),ListOperations.maxFromList))
+  logger.info(obj.operateList(list, listOper(0)))
 
 }
